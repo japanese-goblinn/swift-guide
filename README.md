@@ -8,6 +8,23 @@
 
 ## Control Flow
 
+### `switch` statement
+
+```swift
+enum OperationSystems {
+  case macOS(_ version: String)
+  case iOS(_ version: String)
+}
+
+let os: OperationSystems = .macOS(11)
+let version = {
+  switch os {
+  case let .macOS(version): return version
+  case let .iOS(version):   return version
+  }
+}()
+```
+
 ### `if` statement
 
 ```swift
