@@ -1,4 +1,4 @@
-# japanese-goblinn's Swift Style Guide
+# Swift guide by japanese-goblinn
 
 - Using [swiftlint](https://github.com/realm/SwiftLint) is the best way to maintain consistent code style and share it with others.
 
